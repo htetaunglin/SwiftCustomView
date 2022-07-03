@@ -9,21 +9,33 @@
 /* Begin PBXBuildFile section */
 		5166BAE0276EB6BA00387F3B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5166BADF276EB6BA00387F3B /* AppDelegate.swift */; };
 		5166BAE2276EB6BA00387F3B /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5166BAE1276EB6BA00387F3B /* SceneDelegate.swift */; };
-		5166BAE4276EB6BA00387F3B /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5166BAE3276EB6BA00387F3B /* ViewController.swift */; };
-		5166BAE7276EB6BA00387F3B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5166BAE5276EB6BA00387F3B /* Main.storyboard */; };
+		5166BAE4276EB6BA00387F3B /* HouseListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5166BAE3276EB6BA00387F3B /* HouseListViewController.swift */; };
 		5166BAE9276EB6BB00387F3B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5166BAE8276EB6BB00387F3B /* Assets.xcassets */; };
 		5166BAEC276EB6BB00387F3B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5166BAEA276EB6BB00387F3B /* LaunchScreen.storyboard */; };
+		5166BAFB276EB9D800387F3B /* NSMutableString+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5166BAFA276EB9D800387F3B /* NSMutableString+Extension.swift */; };
+		5166BAFE276EBA2E00387F3B /* HouseInfoItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5166BAFD276EBA2E00387F3B /* HouseInfoItem.swift */; };
+		996F90C92870330000D877FD /* HouseHoldInfoTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 996F90C82870330000D877FD /* HouseHoldInfoTableViewCell.swift */; };
+		99CF3FD9287150EF0013F195 /* HouseDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99CF3FD8287150EF0013F195 /* HouseDetailViewController.swift */; };
+		99CF3FDB287166CD0013F195 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 99CF3FDA287166CD0013F195 /* Main.storyboard */; };
+		99D5A12A287027BF00FC0C83 /* HouseHoldInfoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99D5A129287027BF00FC0C83 /* HouseHoldInfoView.swift */; };
+		99D5A12C28702A0000FC0C83 /* HouseHoldInfoView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 99D5A12B28702A0000FC0C83 /* HouseHoldInfoView.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		5166BADC276EB6BA00387F3B /* HouseHunter.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HouseHunter.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		5166BADF276EB6BA00387F3B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		5166BAE1276EB6BA00387F3B /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		5166BAE3276EB6BA00387F3B /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		5166BAE6276EB6BA00387F3B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		5166BAE3276EB6BA00387F3B /* HouseListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HouseListViewController.swift; sourceTree = "<group>"; };
 		5166BAE8276EB6BB00387F3B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		5166BAEB276EB6BB00387F3B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		5166BAED276EB6BB00387F3B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5166BAFA276EB9D800387F3B /* NSMutableString+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "NSMutableString+Extension.swift"; sourceTree = "<group>"; };
+		5166BAFD276EBA2E00387F3B /* HouseInfoItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HouseInfoItem.swift; sourceTree = "<group>"; };
+		996F90C82870330000D877FD /* HouseHoldInfoTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HouseHoldInfoTableViewCell.swift; sourceTree = "<group>"; };
+		99CF3FD8287150EF0013F195 /* HouseDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HouseDetailViewController.swift; sourceTree = "<group>"; };
+		99CF3FDA287166CD0013F195 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
+		99D5A129287027BF00FC0C83 /* HouseHoldInfoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HouseHoldInfoView.swift; sourceTree = "<group>"; };
+		99D5A12B28702A0000FC0C83 /* HouseHoldInfoView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = HouseHoldInfoView.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,15 +68,69 @@
 		5166BADE276EB6BA00387F3B /* HouseHunter */ = {
 			isa = PBXGroup;
 			children = (
+				99CF3FDA287166CD0013F195 /* Main.storyboard */,
+				99D5A1282870279100FC0C83 /* CustomView */,
+				5166BAFC276EBA2300387F3B /* Model */,
+				5166BAF3276EB72A00387F3B /* HouseList */,
+				5166BAFF276EC3C400387F3B /* HouseUpgrade */,
 				5166BADF276EB6BA00387F3B /* AppDelegate.swift */,
+				5166BAFA276EB9D800387F3B /* NSMutableString+Extension.swift */,
 				5166BAE1276EB6BA00387F3B /* SceneDelegate.swift */,
-				5166BAE3276EB6BA00387F3B /* ViewController.swift */,
-				5166BAE5276EB6BA00387F3B /* Main.storyboard */,
 				5166BAE8276EB6BB00387F3B /* Assets.xcassets */,
 				5166BAEA276EB6BB00387F3B /* LaunchScreen.storyboard */,
 				5166BAED276EB6BB00387F3B /* Info.plist */,
 			);
 			path = HouseHunter;
+			sourceTree = "<group>";
+		};
+		5166BAF3276EB72A00387F3B /* HouseList */ = {
+			isa = PBXGroup;
+			children = (
+				5166BAF4276EB73200387F3B /* Cells */,
+				5166BAE3276EB6BA00387F3B /* HouseListViewController.swift */,
+			);
+			path = HouseList;
+			sourceTree = "<group>";
+		};
+		5166BAF4276EB73200387F3B /* Cells */ = {
+			isa = PBXGroup;
+			children = (
+				5166BAF5276EB74000387F3B /* HouseOverviewInfo */,
+			);
+			path = Cells;
+			sourceTree = "<group>";
+		};
+		5166BAF5276EB74000387F3B /* HouseOverviewInfo */ = {
+			isa = PBXGroup;
+			children = (
+				996F90C82870330000D877FD /* HouseHoldInfoTableViewCell.swift */,
+			);
+			path = HouseOverviewInfo;
+			sourceTree = "<group>";
+		};
+		5166BAFC276EBA2300387F3B /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				5166BAFD276EBA2E00387F3B /* HouseInfoItem.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		5166BAFF276EC3C400387F3B /* HouseUpgrade */ = {
+			isa = PBXGroup;
+			children = (
+				99CF3FD8287150EF0013F195 /* HouseDetailViewController.swift */,
+			);
+			path = HouseUpgrade;
+			sourceTree = "<group>";
+		};
+		99D5A1282870279100FC0C83 /* CustomView */ = {
+			isa = PBXGroup;
+			children = (
+				99D5A129287027BF00FC0C83 /* HouseHoldInfoView.swift */,
+				99D5A12B28702A0000FC0C83 /* HouseHoldInfoView.xib */,
+			);
+			path = CustomView;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -126,8 +192,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				5166BAEC276EB6BB00387F3B /* LaunchScreen.storyboard in Resources */,
+				99D5A12C28702A0000FC0C83 /* HouseHoldInfoView.xib in Resources */,
 				5166BAE9276EB6BB00387F3B /* Assets.xcassets in Resources */,
-				5166BAE7276EB6BA00387F3B /* Main.storyboard in Resources */,
+				99CF3FDB287166CD0013F195 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -138,23 +205,20 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				5166BAE4276EB6BA00387F3B /* ViewController.swift in Sources */,
+				5166BAE4276EB6BA00387F3B /* HouseListViewController.swift in Sources */,
+				5166BAFB276EB9D800387F3B /* NSMutableString+Extension.swift in Sources */,
 				5166BAE0276EB6BA00387F3B /* AppDelegate.swift in Sources */,
 				5166BAE2276EB6BA00387F3B /* SceneDelegate.swift in Sources */,
+				5166BAFE276EBA2E00387F3B /* HouseInfoItem.swift in Sources */,
+				99D5A12A287027BF00FC0C83 /* HouseHoldInfoView.swift in Sources */,
+				996F90C92870330000D877FD /* HouseHoldInfoTableViewCell.swift in Sources */,
+				99CF3FD9287150EF0013F195 /* HouseDetailViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		5166BAE5276EB6BA00387F3B /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				5166BAE6276EB6BA00387F3B /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		5166BAEA276EB6BB00387F3B /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -289,7 +353,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = J8KK28846H;
+				DEVELOPMENT_TEAM = 585W2U7TXZ;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = HouseHunter/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
@@ -302,7 +366,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.mm.padc.HouseHunter;
+				PRODUCT_BUNDLE_IDENTIFIER = com.mm.padc.HouseHunter.two;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -317,7 +381,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = J8KK28846H;
+				DEVELOPMENT_TEAM = 585W2U7TXZ;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = HouseHunter/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
@@ -330,7 +394,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.mm.padc.HouseHunter;
+				PRODUCT_BUNDLE_IDENTIFIER = com.mm.padc.HouseHunter.two;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
